@@ -26,6 +26,7 @@ local function initWords()
         insertWord(word, index)
         index = index + 1
     end
+    f.close()
 end
 
 local function buildFailPoint()
